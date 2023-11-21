@@ -1,11 +1,20 @@
-class guacamole{
-    public static void main(String[] args){
+import java.util.Scanner;
 
-    
-    
-    
-    
+class guacamole{
+
+    public static void main(String[] args){
+        
+        Scanner scanner = new Scanner(System.in);
+
+        int turnos = 0;
+        final int TURNOS_MAXIMOS = 15;
+
+        while (turnos <= TURNOS_MAXIMOS) {
+        Math.random() * (10/16);
+        }
+     
     
     
     
     }
+}
